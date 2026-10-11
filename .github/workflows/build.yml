@@ -1,0 +1,5 @@
+   pom.xml
+   .github/workflows/build.yml
+   src/main/java/dev/blockpicker/BlockPicker.java
+   src/main/resources/plugin.yml
+   src/main/resources/config.yml
