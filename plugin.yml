@@ -1,0 +1,14 @@
+name: BlockPicker
+version: 1.0.0
+main: dev.blockpicker.BlockPicker
+api-version: '26.2'
+description: /block command - pick any building block from a GUI.
+commands:
+  block:
+    description: Open the building block picker, or get a block directly.
+    usage: /block [material] [amount]
+    permission: blockpicker.use
+permissions:
+  blockpicker.use:
+    description: Allows use of /block
+    default: op

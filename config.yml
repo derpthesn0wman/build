@@ -1,0 +1,71 @@
+# BlockPicker config
+# Only items that are placeable blocks are ever shown. Weapons, pearls, tools, food etc.
+# are not blocks, so they are automatically excluded.
+
+# Max amount allowed with /block <material> <amount>
+max-amount: 64
+
+# Exact materials to hide (add or remove any you like)
+excluded-materials:
+  - HEAVY_CORE
+  - DRAGON_EGG
+  - BEDROCK
+  - BARRIER
+  - LIGHT
+  - COMMAND_BLOCK
+  - CHAIN_COMMAND_BLOCK
+  - REPEATING_COMMAND_BLOCK
+  - STRUCTURE_BLOCK
+  - STRUCTURE_VOID
+  - JIGSAW
+  - SPAWNER
+  - TRIAL_SPAWNER
+  - VAULT
+  - REINFORCED_DEEPSLATE
+  - END_PORTAL_FRAME
+  - TNT
+  - FARMLAND
+  - DIRT_PATH
+  - BUDDING_AMETHYST
+  - SPONGE
+  - WET_SPONGE
+  - CRAFTER
+  - TURTLE_EGG
+  - SNIFFER_EGG
+  - FROGSPAWN
+
+# Hide any material whose name CONTAINS one of these (case-insensitive)
+excluded-name-contains:
+  - INFESTED
+  - SAPLING
+  - SPAWNER
+  - COMMAND_BLOCK
+  - TEST_
+  - SPAWN_EGG
+  - SHULKER_BOX
+  - _BED
+  - BANNER
+  - HEAD
+  - SKULL
+  - POTTED
+  - CAKE
+  - CROP
+  - SEEDS
+  - SPROUT
+  - CORAL_FAN
+  - PRESSURE_PLATE
+  - BUTTON
+  - RAIL
+  - REDSTONE
+  - PISTON
+  - OBSERVER
+  - DISPENSER
+  - DROPPER
+  - HOPPER
+  - FURNACE
+  - SMOKER
+  - CHEST
+  - BARREL
+  - ANVIL
+  - BEACON
+  - CONDUIT
